@@ -8,5 +8,6 @@ public class App
         Scanner scanner = new Scanner(System.in);
         System.out.println(LineReader.toUpperCase(scanner.nextLine()));
 
+        //some changes added
     }
 }
