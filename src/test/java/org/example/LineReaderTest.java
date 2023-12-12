@@ -12,4 +12,9 @@ class LineReaderTest {
         String input = "Some Text";
         assertEquals(LineReader.toUpperCase(input), input.toUpperCase());
     }
+    @Test
+    void notLowerCaseTest(){
+        String input = "Some Text";
+        assertNotEquals(LineReader.toUpperCase(input), input.toLowerCase());
+    }
 }
